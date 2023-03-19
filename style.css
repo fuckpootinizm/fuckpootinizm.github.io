@@ -1,0 +1,65 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #6458ff;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Helvetica Bold";
+  src: url(/fonts/Helvetica-Bold-Font.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+p1 {
+  font-family: "Helvetica Bold";
+  font-size: 4vw;
+  color: #eeff88;
+  text-decoration: none;
+  margin: 0px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+#antiwar-saying {
+  top: 0;
+  left: 0;
+  margin: 32px;
+  position: absolute;
+}
+#timer {
+  bottom: 0;
+  left: 0;
+  margin: 32px;
+  position: absolute;
+}
+.image-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 25vh;
+  transform: translate(-50%, -50%);
+}
+#image {
+  max-width: 100%;
+  max-height: 100%;
+  animation: rotate 6s infinite linear;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 430px) {
+  #antiwar-saying,
+  #timer {
+    margin: 24px;
+  }
+  p1 {
+    font-size: 3vh;
+  }
+}
