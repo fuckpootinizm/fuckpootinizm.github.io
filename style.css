@@ -1,7 +1,7 @@
 html {
   margin: 0;
   padding: 0;
-  background-color: #6458ff;
+  background-color: #FFFFFF;
 }
 body {
   margin: 0;
@@ -16,7 +16,7 @@ body {
 p1 {
   font-family: "SF Mono";
   font-size: 1vw;
-  color: #eeff88;
+  color: #111111;
   text-decoration: none;
   margin: 0px;
   letter-spacing: -0.03em;
