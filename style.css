@@ -20,6 +20,7 @@ p1 {
   text-decoration: none;
   margin: 0px;
   letter-spacing: -0.03em;
+  text-transform: lowercase;
 }
 #antiwar-saying {
   top: 0;
